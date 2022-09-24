@@ -1,0 +1,48 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
+    --black-text-color: #000000;
+    --gray-text-color: #757575;
+    --primery-background-color: #2F303A;
+    --modal-btn-backgraund: #188CE8;
+    --portfolio-btn: #F5F4FA;
+    --portfolio-background-color: #F5F4FA;
+    --portfolio-block: #EEEEEE;
+    --email-phone-footer-color: rgba(255, 255, 255, 0.6);
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway;
+    --border: #ECECEC;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+.web {
+    color: var(--accent-color);
+}
+
+.studio {
+    color: var(--black-text-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 93px;
+}
