@@ -1,14 +1,17 @@
-.features-container {
+.features {
+    padding-bottom: 0px;
+}
+
+.features-list {
     display: flex;
-    align-items: center;
+    gap: 30px
+}
+
+.feature__item {
     justify-content: space-between;
 }
 
-.item-feature {
-    justify-content: space-between;
-}
-
-.icons-feature {
+.features__icon {
     display: flex;
     width: 270px;
     height: 120px;
@@ -18,11 +21,7 @@
     border-radius: 4px;
 }
 
-.our-features {
-    padding-bottom: 0px;
-}
-
-.feature {
+.feature__title {
     display: block;
     margin-bottom: 10px;
     font-weight: 700;
@@ -33,15 +32,11 @@
     color: var(--primary-text-color);
 }
 
-.features-text {
+.features__text {
     display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: var(--gray-text-color);
     letter-spacing: 0.03em;
-}
-.advantage-list {
-    display: flex;
-    gap: 30px
 }
